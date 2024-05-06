@@ -11,6 +11,7 @@ from flask import jsonify
 import os
 from sqlalchemy.exc import IntegrityError
 from dotenv import load_dotenv
+from flask_migrate import Migrate
 
 
 
